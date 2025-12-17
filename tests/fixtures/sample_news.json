@@ -1,0 +1,102 @@
+[
+    {
+        "title": "AI Revolution in Marketing: How Machine Learning Transforms Customer Engagement",
+        "url": "https://example.com/news/ai-marketing-revolution-2024",
+        "body": "Artificial Intelligence is revolutionizing the marketing industry by enabling personalized customer experiences at scale. Machine learning algorithms analyze customer behavior patterns to predict preferences and optimize campaign performance. Leading brands are leveraging AI-powered tools for content creation, audience segmentation, and real-time bidding in programmatic advertising. The integration of natural language processing allows marketers to understand customer sentiment and tailor messaging accordingly.",
+        "dateTime": "2024-12-15",
+        "source": {
+            "uri": "techcrunch.com",
+            "title": "TechCrunch"
+        }
+    },
+    {
+        "title": "Marketing Automation Platforms Integrate Advanced AI Capabilities",
+        "url": "https://example.com/news/marketing-automation-ai-integration",
+        "body": "Major marketing automation platforms are rolling out new artificial intelligence features designed to streamline campaign management. These tools use predictive analytics to identify high-value leads and optimize email send times. AI-driven A/B testing automatically adjusts campaign elements to maximize conversion rates. The technology also enables dynamic content personalization based on user behavior and demographic data.",
+        "dateTime": "2024-12-14",
+        "source": {
+            "uri": "marketingweek.com",
+            "title": "Marketing Week"
+        }
+    },
+    {
+        "title": "AI-Powered Chatbots Enhance Customer Service in Marketing Campaigns",
+        "url": "https://example.com/news/ai-chatbots-marketing-customer-service",
+        "body": "Conversational AI is becoming an essential tool for marketers seeking to provide 24/7 customer support. Advanced chatbots powered by large language models can handle complex customer inquiries, recommend products, and guide users through the sales funnel. These AI assistants collect valuable data on customer preferences and pain points, informing future marketing strategies. Integration with CRM systems ensures seamless handoffs to human agents when needed.",
+        "dateTime": "2024-12-13",
+        "source": {
+            "uri": "adage.com",
+            "title": "Ad Age"
+        }
+    },
+    {
+        "title": "",
+        "url": "https://example.com/news/invalid-no-title",
+        "body": "This article should be filtered out because it has no title.",
+        "dateTime": "2024-12-12",
+        "source": {
+            "uri": "example.com",
+            "title": "Example News"
+        }
+    },
+    {
+        "title": "Article with No Body Content",
+        "url": "https://example.com/news/no-body-content",
+        "body": "",
+        "dateTime": "2024-12-11",
+        "source": {
+            "uri": "example.com",
+            "title": "Example News"
+        }
+    },
+    {
+        "title": "Removed Article Example",
+        "url": "https://example.com/news/removed-article",
+        "body": "[Removed]",
+        "dateTime": "2024-12-10",
+        "source": {
+            "uri": "example.com",
+            "title": "Example News"
+        }
+    },
+    {
+        "title": "Duplicate Article - First Occurrence",
+        "url": "https://example.com/news/duplicate-url-test",
+        "body": "This is the first occurrence of a duplicate URL. It should be kept during deduplication.",
+        "dateTime": "2024-12-09",
+        "source": {
+            "uri": "example.com",
+            "title": "Example News"
+        }
+    },
+    {
+        "title": "Duplicate Article - Second Occurrence",
+        "url": "https://example.com/news/duplicate-url-test",
+        "body": "This is a duplicate URL with different content. It should be removed during deduplication.",
+        "dateTime": "2024-12-08",
+        "source": {
+            "uri": "example.com",
+            "title": "Example News"
+        }
+    },
+    {
+        "title": "Invalid Date Format Article",
+        "url": "https://example.com/news/invalid-date-format",
+        "body": "This article has an invalid date format that should be handled gracefully during date parsing.",
+        "dateTime": "not-a-valid-date",
+        "source": {
+            "uri": "example.com",
+            "title": "Example News"
+        }
+    },
+    {
+        "title": "Predictive Analytics Drive Marketing ROI Using AI",
+        "url": "https://example.com/news/predictive-analytics-ai-marketing-roi",
+        "body": "Marketing teams are increasingly relying on AI-driven predictive analytics to forecast campaign performance and allocate budgets more effectively. Machine learning models analyze historical data to identify patterns and predict future customer behavior. This enables marketers to focus resources on high-performing channels and customer segments. Real-time analytics dashboards powered by AI provide actionable insights for immediate campaign optimization.",
+        "dateTime": "2024-12-07",
+        "source": {
+            "uri": "forbes.com",
+            "title": "Forbes"
+        }
+    }
+]
