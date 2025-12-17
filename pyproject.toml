@@ -1,16 +1,9 @@
 [project]
-<<<<<<< HEAD
-name = "newsapi"
-=======
 name = "newsapi_dentsu"
->>>>>>> master
 requires-python = ">=3.10,<3.14"
 version = "0.1.0"
 dependencies = [
     "dagster==1.12.6",
-<<<<<<< HEAD
-    "pandas>=2.3.3",
-=======
     "dagster-duckdb>=0.28.6",
     "dagster-duckdb-pandas>=0.28.6",
     "dagster-postgres>=0.28.6",
@@ -18,19 +11,15 @@ dependencies = [
     "eventregistry>=9.1",
     "matplotlib>=3.10.8",
     "seaborn>=0.13.2",
->>>>>>> master
 ]
 
 [dependency-groups]
 dev = [
     "dagster-webserver",
     "dagster-dg-cli",
-<<<<<<< HEAD
-=======
     "pytest>=7.4.0",
     "pytest-mock>=3.12.0",
     "pytest-cov>=4.1.0",
->>>>>>> master
 ]
 
 [build-system]
@@ -44,14 +33,6 @@ force-include = { "pyproject.toml" = "pyproject.toml" }
 directory_type = "project"
 
 [tool.dg.project]
-<<<<<<< HEAD
-root_module = "newsapi"
-registry_modules = [
-    "newsapi.components.*",
-]
-
-
-=======
 root_module = "newsapi_dentsu"
 registry_modules = ["newsapi_dentsu.components.*"]
 
@@ -72,4 +53,3 @@ markers = [
     "slow: marks tests as slow (deselect with '-m \"not slow\"')",
     "integration: marks tests as integration tests",
 ]
->>>>>>> master

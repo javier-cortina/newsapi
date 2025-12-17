@@ -260,8 +260,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "contourpy"
 version = "1.3.2"
 source = { registry = "https://pypi.org/simple" }
@@ -474,7 +472,6 @@ toml = [
 ]
 
 [[package]]
->>>>>>> master
 name = "cryptography"
 version = "46.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -525,8 +522,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "cycler"
 version = "0.12.1"
 source = { registry = "https://pypi.org/simple" }
@@ -536,7 +531,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "dagster"
 version = "1.12.6"
 source = { registry = "https://pypi.org/simple" }
@@ -644,8 +638,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "dagster-duckdb"
 version = "0.28.6"
 source = { registry = "https://pypi.org/simple" }
@@ -673,7 +665,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "dagster-graphql"
 version = "1.12.6"
 source = { registry = "https://pypi.org/simple" }
@@ -699,8 +690,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "dagster-postgres"
 version = "0.28.6"
 source = { registry = "https://pypi.org/simple" }
@@ -714,7 +703,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "dagster-shared"
 version = "1.12.6"
 source = { registry = "https://pypi.org/simple" }
@@ -757,8 +745,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "duckdb"
 version = "1.4.3"
 source = { registry = "https://pypi.org/simple" }
@@ -805,7 +791,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/d5/71/8e2e8229d4b4ac37a8d64fa219ed9826b2ab05404f00f1a484966d4fd932/eventregistry-9.1.tar.gz", hash = "sha256:6c9e37852e5e16a02f0ba4321ef36ea7c3fd2a7dbcad35d1e9a520915b3e63d5", size = 59066 }
 
 [[package]]
->>>>>>> master
 name = "exceptiongroup"
 version = "1.3.1"
 source = { registry = "https://pypi.org/simple" }
@@ -827,8 +812,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "fonttools"
 version = "4.61.1"
 source = { registry = "https://pypi.org/simple" }
@@ -870,7 +853,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "fsspec"
 version = "2025.12.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1122,8 +1104,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "iniconfig"
 version = "2.3.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1133,7 +1113,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "jinja2"
 version = "3.1.6"
 source = { registry = "https://pypi.org/simple" }
@@ -1173,8 +1152,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "kiwisolver"
 version = "1.4.9"
 source = { registry = "https://pypi.org/simple" }
@@ -1257,7 +1234,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "mako"
 version = "1.3.10"
 source = { registry = "https://pypi.org/simple" }
@@ -1354,8 +1330,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "matplotlib"
 version = "3.10.8"
 source = { registry = "https://pypi.org/simple" }
@@ -1417,7 +1391,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "mdurl"
 version = "0.1.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1529,18 +1502,11 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-name = "newsapi"
-=======
 name = "newsapi-dentsu"
->>>>>>> master
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "dagster" },
-<<<<<<< HEAD
-    { name = "pandas" },
-=======
     { name = "dagster-duckdb" },
     { name = "dagster-duckdb-pandas" },
     { name = "dagster-postgres" },
@@ -1548,27 +1514,20 @@ dependencies = [
     { name = "matplotlib" },
     { name = "psycopg2-binary" },
     { name = "seaborn" },
->>>>>>> master
 ]
 
 [package.dev-dependencies]
 dev = [
     { name = "dagster-dg-cli" },
     { name = "dagster-webserver" },
-<<<<<<< HEAD
-=======
     { name = "pytest" },
     { name = "pytest-cov" },
     { name = "pytest-mock" },
->>>>>>> master
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "dagster", specifier = "==1.12.6" },
-<<<<<<< HEAD
-    { name = "pandas", specifier = ">=2.3.3" },
-=======
     { name = "dagster-duckdb", specifier = ">=0.28.6" },
     { name = "dagster-duckdb-pandas", specifier = ">=0.28.6" },
     { name = "dagster-postgres", specifier = ">=0.28.6" },
@@ -1576,19 +1535,15 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "psycopg2-binary", specifier = ">=2.9.9" },
     { name = "seaborn", specifier = ">=0.13.2" },
->>>>>>> master
 ]
 
 [package.metadata.requires-dev]
 dev = [
     { name = "dagster-dg-cli" },
     { name = "dagster-webserver" },
-<<<<<<< HEAD
-=======
     { name = "pytest", specifier = ">=7.4.0" },
     { name = "pytest-cov", specifier = ">=4.1.0" },
     { name = "pytest-mock", specifier = ">=3.12.0" },
->>>>>>> master
 ]
 
 [[package]]
@@ -1787,8 +1742,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "pillow"
 version = "12.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1862,7 +1815,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "platformdirs"
 version = "4.5.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1872,8 +1824,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "pluggy"
 version = "1.6.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1883,7 +1833,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "prompt-toolkit"
 version = "3.0.52"
 source = { registry = "https://pypi.org/simple" }
@@ -2007,8 +1956,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "psycopg2-binary"
 version = "2.9.11"
 source = { registry = "https://pypi.org/simple" }
@@ -2061,7 +2008,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "pycparser"
 version = "2.23"
 source = { registry = "https://pypi.org/simple" }
@@ -2191,8 +2137,6 @@ crypto = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "pyparsing"
 version = "3.2.5"
 source = { registry = "https://pypi.org/simple" }
@@ -2202,7 +2146,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "pyreadline3"
 version = "3.5.4"
 source = { registry = "https://pypi.org/simple" }
@@ -2212,8 +2155,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "pytest"
 version = "9.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -2258,7 +2199,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "python-dateutil"
 version = "2.9.0.post0"
 source = { registry = "https://pypi.org/simple" }
@@ -2513,8 +2453,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "seaborn"
 version = "0.13.2"
 source = { registry = "https://pypi.org/simple" }
@@ -2530,7 +2468,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> master
 name = "setuptools"
 version = "80.9.0"
 source = { registry = "https://pypi.org/simple" }
